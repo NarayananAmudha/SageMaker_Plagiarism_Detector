@@ -12,7 +12,6 @@ This project will be broken down into three main notebooks:
 * Load in the corpus of plagiarism text data.
 * Explore the existing data features and the data distribution.
 
-
 **Notebook 2: Feature Engineering**
 
 * Clean and pre-process the text data.
@@ -36,9 +35,9 @@ Following Python libraries are used im Implementation
   
  - pandas 
  - numpy
- - nltk
- - beautifulsoup4
- - html5lib	
+ - sklearn
+ - seaborn
+ - matplotlib
  
 ### Steps
 1. Clone the repository.
@@ -49,7 +48,7 @@ Following Python libraries are used im Implementation
 	```
 	
 		
-3.  Run the code in jupyter notebook with AWS SageMaker account.
+3.  Run the above code in jupyter notebook with AWS SageMaker account to create train.csv,test.csv and to build and evaluate model.
 
 Please see the [README](https://github.com/udacity/ML_SageMaker_Studies/tree/master/README.md) in the root directory for instructions on setting up a SageMaker notebook and downloading the project files (as well as the other notebooks).
 
